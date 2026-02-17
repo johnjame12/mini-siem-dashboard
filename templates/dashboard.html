@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Mini-SIEM Dashboard</title>
+</head>
+<body>
+    <h1>Mini-SIEM Dashboard</h1>
+    <table border="1">
+        <tr>
+            <th>Type</th>
+            <th>Source</th>
+            <th>Detail</th>
+            <th>Action</th>
+            <th>Timestamp</th>
+        </tr>
+        {% for t in threats %}
+        <tr>
+            <td>{{ t.type }}</td>
+            <td>{{ t.source }}</td>
+            <td>{{ t.detail }}</td>
+            <td>{{ t.action }}</td>
+            <td>{{ t.timestamp }}</td>
+        </tr>
+        {% endfor %}
+    </table>
+</body>
+</html>
