@@ -78,7 +78,7 @@ Users can filter and investigate suspicious activity
 
 Installation
 1. Clone the Repository
-git clone https://github.com/your-username/mini-siem-dashboard.git
+git clone https://github.com/johnjame12/mini-siem-dashboard.git
 cd mini-siem-dashboard
 2. Install Dependencies
 
